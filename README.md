@@ -8,6 +8,8 @@ Create a CSV file similar to ```test.csv``` in this repo. Supply subscription ID
 
 Run the script as below - it will show changes which are going to be made but not take effect.
 
+You must use ```Connect-AzAccount``` to connect to the correct Azure tenant before executing the script.
+
 ```
 .\Move-Subscriptions.ps1 -FileName .\test.csv
 ```
